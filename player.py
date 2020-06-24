@@ -31,24 +31,22 @@ class PlayerCharacter(arcade.Sprite):
         self.climbing = False
         self.is_on_ladder = False
 
-        main_path = "images/animated_characters/male_person/malePerson"
-
         # Load textures for idle standing
-        self.idle_texture_pair = load_texture_pair(f"{main_path}_idle.png")
-        self.jump_texture_pair = load_texture_pair(f"{main_path}_jump.png")
-        self.fall_texture_pair = load_texture_pair(f"{main_path}_fall.png")
+        self.idle_texture_pair = load_texture_pair(f"{constants.PLAYER_MAIN_PATH}_idle.png")
+        self.jump_texture_pair = load_texture_pair(f"{constants.PLAYER_MAIN_PATH}_jump.png")
+        self.fall_texture_pair = load_texture_pair(f"{constants.PLAYER_MAIN_PATH}_fall.png")
 
         # Load textures for walking
         self.walk_textures = []
         for i in range(8):
-            texture = load_texture_pair(f"{main_path}_walk{i}.png")
+            texture = load_texture_pair(f"{constants.PLAYER_MAIN_PATH}_walk{i}.png")
             self.walk_textures.append(texture)
 
         # Load textures for climbing
         self.climbing_textures = []
-        texture = arcade.load_texture(f"{main_path}_climb0.png")
+        texture = arcade.load_texture(f"{constants.PLAYER_MAIN_PATH}_climb0.png")
         self.climbing_textures.append(texture)
-        texture = arcade.load_texture(f"{main_path}_climb1.png")
+        texture = arcade.load_texture(f"{constants.PLAYER_MAIN_PATH}_climb1.png")
         self.climbing_textures.append(texture)
 
         # Set the initial texture
