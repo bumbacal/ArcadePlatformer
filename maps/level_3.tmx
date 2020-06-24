@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="100" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="10" nextobjectid="1">
+ <tileset firstgid="1" name="lv3_tiles" tilewidth="212" tileheight="256" tilecount="28" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/tiles/sandCliffAlt_left.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/tiles/cactus.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/tiles/lava.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/tiles/rock.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/tiles/sand.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/tiles/sandCenter.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/tiles/sandHalf_left.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/tiles/sandHalf_mid.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/tiles/sandHalf_right.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/tiles/sandMid.png"/>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/tiles/cactusReversed.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/tiles/rockReversed.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/items/coinBronze.png"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/items/coinGold.png"/>
+  </tile>
+  <tile id="14">
+   <image width="212" height="256" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/zombies/stand/0.png"/>
+  </tile>
+  <tile id="15">
+   <image width="212" height="256" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/zombies/walk/0.png"/>
+  </tile>
+  <tile id="16">
+   <image width="212" height="256" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/zombies/walk/1.png"/>
+  </tile>
+  <tile id="17">
+   <image width="212" height="256" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/zombies/walk/2.png"/>
+  </tile>
+  <tile id="18">
+   <image width="212" height="256" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/zombies/walk/3.png"/>
+  </tile>
+  <tile id="19">
+   <image width="212" height="256" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/zombies/walk/4.png"/>
+  </tile>
+  <tile id="20">
+   <image width="212" height="256" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/zombies/walk/5.png"/>
+  </tile>
+  <tile id="21">
+   <image width="212" height="256" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/zombies/walk/6.png"/>
+  </tile>
+  <tile id="22">
+   <image width="212" height="256" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/zombies/walk/7.png"/>
+  </tile>
+  <tile id="23">
+   <image width="212" height="256" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/zombies/walk/8.png"/>
+  </tile>
+  <tile id="24">
+   <image width="212" height="256" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/zombies/walk/9.png"/>
+  </tile>
+  <tile id="25">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/items/gemYellow.png"/>
+  </tile>
+  <tile id="26">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/tiles/spikes.png"/>
+  </tile>
+  <tile id="27">
+   <image width="128" height="128" source="C:/Users/bumba/PycharmProjects/ArcadePlatformer/venv/Lib/site-packages/arcade/resources/images/tiles/signExit.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Platforms" width="100" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztk8sKgCAUBW1RWf//wUXkRiyvV/HFDAwEYcgZMgYAAGbEtr4APNChD+jQDusJkMN+e7S+RAFG/xd6ub/9eAY9oR3/tpXsLm1Tq+GZIOQj2XkTugi/F2u4vs5MaIPUvWMa5Rkf9851SW08iqV2j21bqgeW6ZGyKz3q9ZBsqzmD9BhRzbaaM0iPEb0Afg0SgA==
+  </data>
+ </layer>
+ <layer id="2" name="Obstacles" width="100" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJACEAwEDBMX7/PW0sbR+C3kEmyBgAAAAAcJd56DXfrsCPFj9a/Gjxo8WPFj9a/PjPAq/vAK8=
+  </data>
+ </layer>
+ <layer id="9" name="ExitSign" width="100" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAMAiCDrH/OfVbwgQQkAAAAwMqtAwAAAEA91a8AHQ==
+  </data>
+ </layer>
+ <layer id="3" name="Background" width="100" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEKwCAMBEApvdX/v9dbT9KAtUjszH0hgQ0pBQBgT8fqAUhPh4C3rtUDcKuTsr3fcAb5v/yTbHuO3OdTj76696hfAADAXA3EEABY
+  </data>
+ </layer>
+ <layer id="8" name="LevelJewel" width="100" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6DnsH9QY3w6SEACd007AAAAAAAAALyxBG0AGw==
+  </data>
+ </layer>
+ <layer id="4" name="GoldCoins" width="100" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1bEJADAMAzBf0P/P7ZI1UwPpIIEPCDYkAQBenQp/0AeTtrdkz+4HYJ7fAgAAdC4a1gB/
+  </data>
+ </layer>
+ <layer id="6" name="Enemies" width="100" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzrENAAAEADAf+P9bq8VMpL2gEQAAAABAl9uBwdUXAAB8UX/PAB8=
+  </data>
+ </layer>
+ <layer id="7" name="EnemyBoundaries" width="100" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzbERAAAIAjFr9x/YITylSfqHKgAAAACAvH7ut39XWwAA5Ay4NwAp
+  </data>
+ </layer>
+ <layer id="5" name="BronzeCoins" width="100" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEJACAMBEAXcP91BRsbhWijhrvKLvEfUgoAmdTbC9DpAXiJmzTMsojmUxdvzvPY7SMy56TPbDL/7Uf6AAAA+EsDzeMAxA==
+  </data>
+ </layer>
+</map>
